@@ -1,0 +1,92 @@
+@font-face {font-family: 'Pretendard-Regular';
+      src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+      font-weight: 400;
+      font-style: normal;}
+    
+    *{margin: 0; padding: 0;}
+    ul{list-style: none;}
+    a{text-decoration: none; color: #131315;}
+    body{font-weight: 400; font-style: normal; font-size: 14px; line-height: 22px; color: #131315;
+      font-family: 'Pretendard-Regular';}
+    
+    /* 헤더 */
+    header{background-color: #fbfeff;position: relative; }
+    .header_inner{width: 1200px; height: 122px; margin: auto;  }
+    .header_inner h1{float: left; padding: 50px 0 0; display: block; }
+    .nav> li:hover> a{color: #2764b0;}
+    .nav> li{float: left; font-weight: bold;  padding: 50px 43px 0;}
+    
+    li a{display: block; padding-bottom: 20px; }
+    .nav{float: right; }
+    .sub{background-color: rgba(0, 172, 236, 0.7); position: absolute; width: 100%; left: 0; 
+    padding: 10px 0; z-index: 99; }
+    .sub div{width: 1200px; margin: auto;  }
+    .mg{width: 135.52px;  margin-left: 593px; text-align: center; }
+    .sub ul li a:hover{color: #2764b0;} 
+    .sub ul{float: left; width:131px; text-align: center; }
+    .sub ul li{padding: 15px 0; }
+    .sub a{color: #fbfeff ; }
+    
+    .sub{display: none;/*서브메뉴 안보이게 만들기*/ }
+    .nav li:hover .sub{display: block;/*서브메뉴 보이게 만들기*/ } 
+
+.secondnav{background-color: #00aeef;}
+.secondul li a:hover{text-decoration: underline;}
+.secondnavinner{margin: auto; height: 50px; margin-bottom: 100px; width: 1200px;}
+.secondnavinner ul{float: right; padding-right: 43px;}
+.secondnavinner li{float: left; color: #fbfeff; padding-left: 30px; padding-top: 15px; }
+.secondnavinner li a{color: #fbfeff; font-size: 14px;}
+.secondnav .secondli a{color: #00237b; font-weight: 900;} /*파랑 메뉴*/ 
+
+
+.mainbanner{width: 1459px; margin: auto; position: relative;}
+.mainbanner img{ margin: auto;; display: block; clear: both; }
+h2{color: #00aeef ; text-align: center; font-size: 40px; font-weight: 1000; padding: 20px 0;}
+h3{font-size: 25px; text-align: center; font-weight: 600; padding: 50px 0;}
+.maintext1 img{display: block; clear: both; margin: auto; padding: 30px 0;}
+.maintext2 img{display: block; clear: both; margin: auto; padding: 30px 0; padding-bottom: 170px;}
+
+.content{margin-bottom: 100px; margin: auto; text-align: center; }
+.content p{font-size: 18px; line-height: 30px; padding: 20px 0 60px 0;}
+.animation{ position: absolute;  padding-left: 20px; top:250px;}
+.img2{padding: 10px 0;}
+
+.span1{background-image: url(images/highlights1.png); background-repeat: no-repeat; 
+background-position: left bottom; display: inline-block; padding: 1px;
+font-weight: 700;}
+.span2{background-image: url(images/highlights2.png); background-repeat: no-repeat; 
+      background-position: left bottom; display: inline-block; padding: 1px;
+      font-weight: 700;}
+.span3{background-image: url(images/highlights3.png); background-repeat: no-repeat; 
+      background-position: left bottom;
+      font-weight: 700;}
+.span4{background-image: url(images/highlights4.png); background-repeat: no-repeat;
+      background-position: left bottom;
+      font-weight: 700; }
+
+.span5{color: #00aeef;font-weight: 700;}
+.span6{color: #3c8dcc;font-weight: 700;}
+.span7{color: #4677bb;font-weight: 700;}
+.span8{color: #2764b0;font-weight: 700;}
+.downp{margin-bottom: 100px; margin-top: 30px;}
+
+
+/*푸터*/
+footer{background-image:url(images/footer.png); height: 361px; margin: auto; position: relative;} 
+.footer_inner{width: 1200px;  margin: auto; padding-top: 120px;}
+.footer_inner p{color: #fbfeff; line-height: 30px; clear: both; }
+.footer_inner span{color: rgba(251, 254, 255, 0.4);}
+
+.left{float: left; }
+.right{float: right; }
+.right li{float: left;  padding: 0 20px 5px 0; opacity: 0.7 ; display: block; }
+.right li:hover{opacity:1}
+
+
+.second{clear: both;}
+.second li{float: left; color: #fbfeff; padding: 0 20px 5px 0;}
+.second li a:hover{color: #00aeef ;}
+.second a{font-weight: 700; color: #fbfeff;}
+
+
+.top{position:fixed; bottom:50px; right:50px;  display:none;}/* icon 꾸미기 */
